@@ -77,6 +77,52 @@
       </div>
     </div>
   </section>
+  <section class="section section-header">
+    <div class="container">
+      <div class="header-content">
+        <div class="header-wrapper">
+          <div class="info-wrapper">
+            <svg class="info-icon" width="15" height="15">
+              <use href="img/sprite.svg#mark"></use>
+            </svg>
+            <address class="info-adress">
+              Восточно-Кругликовская улица, 86
+            </address>
+            <div class="work-time">
+              Вт - Сб 10:00 - 20:00
+            </div>
+          </div>
+          <h1 class="section-title header-title">
+            Запишитесь на бесплатный тест-драйв электросамокатов
+          </h1>
+          <p class="header-text">
+            в Москве без ограничения по времени
+          </p>
+          <ul class="header-features">
+            <li class="header-features-item">
+              <svg class="links-icon" width="16" height="16">
+                <use href="img/sprite.svg#samokat"></use>
+              </svg>
+              <p class="header-features-text">
+                Поймете, какая модель вам подходит
+              </p>
+            </li>
+            <li class="header-features-item">
+              <svg class="links-icon" width="16" height="16">
+                <use href="img/sprite.svg#energy"></use>
+              </svg>
+              <p class="header-features-text">
+                Проверите лучшие самокаты в деле
+              </p>
+            </li>
+          </ul>
+          <button class="button header-button">
+            Записаться
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
 
 </html>
