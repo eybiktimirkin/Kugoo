@@ -123,6 +123,113 @@
       </div>
     </div>
   </section>
+  <section class="section testdrive">
+    <div class="container">
+      <div class="testdrive-wrapper">
+        <div class="testdrive-content">
+          <h1 class="section-title testdrive-title">
+            Определите максимально подходящую вам модель не теоретически, а на практике
+          </h1>
+          <p class="testdrive-text">
+            <b>Тест-драйв поможет:</b>
+          </p>
+          <ul class="testdrive-features">
+            <li class="testdrive-features-item">
+              <svg class="links-icon" width="22" height="22">
+                <use href="img/sprite.svg#check"></use>
+              </svg>
+              <p class="testdrive-features-item-text">
+                <b>Понять</b> подходит ли вам конкретная модель;
+              </p>
+            </li>
+            <li class="testdrive-features-item">
+              <svg class="links-icon" width="22" height="22">
+                <use href="img/sprite.svg#check"></use>
+              </svg>
+              <p class="testdrive-features-item-text">
+                <b>Испытать</b> самокат в «реальной жизни»;
+              </p>
+            </li>
+            <li class="testdrive-features-item">
+              <svg class="links-icon" width="22" height="22">
+                <use href="img/sprite.svg#check"></use>
+              </svg>
+              <p class="testdrive-features-item-text">
+                <b>Оценить</b> удобство хранения и эксплуатации;
+              </p>
+            </li>
+            <li class="testdrive-features-item">
+              <svg class="links-icon" width="22" height="22">
+                <use href="img/sprite.svg#check"></use>
+              </svg>
+              <p class="testdrive-features-item-text">
+                <b>Узнать</b> реальные характеристики и возможности модели.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <img src="img/samokat.jpg" alt="самокаты" class="testdrive-img">
+      </div>
+    </div>
+  </section>
+  <section class="section training">
+    <div class="container">
+      <div class="training-wrapper">
+        <img src="img/woman.jpg" alt="девушка на самокате" class="training-img">
+        <div class="training-content">
+          <h1 class="section-title training-title">
+            Научим правильной и безопасной езде в городе вас или вашего ребенка
+          </h1>
+          <p class="training-text">
+            <b>На обучении специалист расскажет:</b>
+          </p>
+          <ul class="training-features">
+            <li class="training-features-item">
+              <svg class="links-icon" width="22" height="22">
+                <use href="img/sprite.svg#check"></use>
+              </svg>
+              <p class="training-features-item-text">
+                Как подготовить самокат к поездке;
+              </p>
+            </li>
+            <li class="training-features-item">
+              <svg class="links-icon" width="22" height="22">
+                <use href="img/sprite.svg#check"></use>
+              </svg>
+              <p class="training-features-item-text">
+                Как «завести» самокат;
+              </p>
+            </li>
+            <li class="training-features-item">
+              <svg class="links-icon" width="22" height="22">
+                <use href="img/sprite.svg#check"></use>
+              </svg>
+              <p class="training-features-item-text">
+                Как вести себя во время поездки и обезопасить себя и окружающих;
+              </p>
+            </li>
+            <li class="training-features-item">
+              <svg class="links-icon" width="22" height="22">
+                <use href="img/sprite.svg#check"></use>
+              </svg>
+              <p class="training-features-item-text">
+                Как складывать и раскладывать электросамокат;
+              </p>
+            </li>
+            <li class="training-features-item">
+              <svg class="links-icon" width="22" height="22">
+                <use href="img/sprite.svg#check"></use>
+              </svg>
+              <p class="training-features-item-text">
+                Как ухаживать за своим девайсом.
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  
 </body>
 
 </html>

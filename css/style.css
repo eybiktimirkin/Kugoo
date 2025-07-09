@@ -191,8 +191,6 @@ box-sizing: border-box;
   position: relative;
   z-index: 0;
   overflow: hidden;
-  background-size: 1200px auto; /* или меньше — в зависимости от макета */
-
 }
 
 .header-content::after {
@@ -297,4 +295,83 @@ color: #fff;
   color: #6F73EE;
   background-color: #fff;
   margin-bottom: 3.5rem;
+}
+
+.testdrive-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4.5rem;
+}
+
+.testdrive-content{
+  margin-left: 135px;
+}
+
+.testdrive-title{
+font-weight: 600;
+font-size: 35px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: uppercase;
+width: 40.3125rem;
+}
+
+.testdrive-text{
+font-weight: 400;
+font-size: 20px;
+line-height: 119%;
+letter-spacing: 0%;
+}
+
+.testdrive-features{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+
+.testdrive-features-item{
+  display: flex;
+  align-items: center;
+  gap: .6875rem;
+}
+
+.training-wrapper{
+  display: flex;
+  align-items: center;
+  margin-top: 6.25rem;
+}
+
+.training-content{
+  margin-left: 5.9375rem;
+}
+
+.training-title{
+font-weight: 600;
+font-size: 35px;
+line-height: 100%;
+letter-spacing: 0%;
+text-transform: uppercase;
+width: 36.5rem;
+}
+
+.training-text{
+font-weight: 400;
+font-size: 20px;
+line-height: 119%;
+letter-spacing: 0%;
+}
+
+.training-features{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+
+.training-features-item{
+  display: flex;
+  align-items: center;
+  gap: .6875rem;
 }
