@@ -229,7 +229,58 @@
       </div>
     </div>
   </section>
-  
+  <section class="section section-cta">
+    <div class="container bg-grey">
+      <img class="cta-image" src="img/cta.png" alt="cta">
+      <div class="cta-form-wrapper">
+        <form action="handler.php" method="POST" class="cta-form">
+          <h2 class="section-title cta-form-title">
+            Нет нужной модели, которую хотите протестировать?
+          </h2>
+          <p class="cta-form-text">
+            <b>Оставьте заявку, и менеджер подберет нужный самокат</b>
+          </p>
+          <div class="input-group-wrapper">
+            <div class="input-group">
+              <input id="user-phone" type="text" class="input phone-mask" name="userphone"
+                placeholder="+7 (___) __ - __ - __" maxlength="30" required />
+              <label class="input-group-label" for="user-phone"></label>
+            </div>
+            <button type="submit" class="button cta-form-button">
+              Оставить заявку на тест-драйв
+            </button>
+          </div>
+          <div class="cta-form-footer">
+            <div class="notify">
+              <svg class="notify-icon" width="16" height="16">
+                <use href="img/sprite.svg#checkbox"></use>
+              </svg>
+              <p class="notify-text">
+                Нажимая на кнопку, вы соглашаетесь на обработку персональных данных и <u>политикой
+                  конфиденциальности</u>
+              </p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <section class="section section-footer-top">
+    <div class="footer-top-wrapper">
+      <div class="section-title footer-top-title">
+        Оставьте свою почту и станьте первым, кто получит скидку на новые самокаты
+      </div>
+      <div class="input-group modal-input-group">
+        <input id="modal-user-name" type="text" class="input modal-input" name="username"
+          placeholder="Введите Ваш email" />
+        <button type="submit" class="button footer-top-form-button">
+          Подписаться
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <script src="main.js"></script>
 </body>
 
 </html>
