@@ -279,7 +279,189 @@
       </div>
     </div>
   </section>
+  <footer class="footer">
+    <div class="footer-menu">
+      <div class="footer-menu-wrapper">
+        <h2 class="footer-menu-title">
+          Каталог товаров
+        </h2>
+        <ul class="footer-menu-list">
+          <li class="footer-menu-item">
+            <a href="#" class="footer-menu-link">Электросамокаты</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="#" class="footer-menu-link">Электроскутеры</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="#" class="footer-menu-link">Электровелосипеды</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="#" class="footer-menu-link">Электровелосипеды</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-menu-wrapper">
+        <h2 class="footer-menu-title">
+          Покупателям
+        </h2>
+        <ul class="footer-menu-list column-2">
+          <li class="footer-menu-item">
+            <a href="#" class="footer-menu-link">Сервисный центр</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="#" class="footer-menu-link">Доставка и оплата</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="#" class="footer-menu-link">Рассрочка</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="#" class="footer-menu-link">Тест-драйв</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="#" class="footer-menu-link">Блог</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="#" class="footer-menu-link">Сотрудничество</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="#" class="footer-menu-link">Контакты</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="#" class="footer-menu-link">Акции</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-menu-wrapper">
+        <h2 class="footer-menu-title">
+          Контакты
+        </h2>
+        <ul class="footer-menu-list column-2">
+          <li class="footer-menu-item footer-menu-link">
+            Call-центр
+          </li>
+          <li class="footer-menu-item">
+            <a href="tel:+78005055461" class="footer-menu-link text-number">+7 (800) 505-54-61</a>
+          </li>
+          <li class="footer-menu-item footer-menu-link text-time">
+            Пн-Вс 10:00 - 20:00
+          </li>
+          <li class="footer-menu-item footer-menu-link">
+            Сервисный центр
+          </li>
+          <li class="footer-menu-item">
+            <a href="tel:+784993507692" class="footer-menu-link text-number">+7 (499) 350-76-92</a>
+          </li>
+          <li class="footer-menu-item footer-menu-link text-time">
+            Пн-Вс 10:00 - 20:00
+          </li>
+        </ul>
+      </div>
+      <div class="footer-menu-wrapper">
+        <a href="#" class="callback">
+          Заказать звонок
+        </a>
+      </div>
+    </div>
+    <hr color="rgba(93, 108, 123, 1)" class="footer-seporator" />
+    <div class="footer-links">
+      <h1 class="section-title">
+        KUGOO
+      </h1>
+      <div class="links-download-wrapper">
+        <a href="#" class="link-download">
+          <svg class="links-icon" width="151" height="45">
+            <use href="img/sprite.svg#GP"></use>
+          </svg>
+        </a>
+        <a href="#" class="link-download">
+          <svg class="links-icon" width="135" height="45">
+            <use href="img/sprite.svg#AS"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="links-wrapper">
+        <a href="#" class="link-item">
+          <svg class="links-icon" width="123" height="45">
+            <use href="img/sprite.svg#vk"></use>
+          </svg>
+        </a>
+        <a href="#" class="link-item">
+          <svg class="links-icon" width="123" height="45">
+            <use href="img/sprite.svg#youtube"></use>
+          </svg>
+        </a>
+        <a href="#" class="link-item">
+          <svg class="links-icon" width="123" height="45">
+            <use href="img/sprite.svg#telegram"></use>
+          </svg>
+        </a>
+      </div>
 
+    </div>
+    <hr color="rgba(93, 108, 123, 1)" class="footer-seporator" />
+    <div class="footer-bottom">
+      <div class="footer-legal">
+        <a href="#" class="footer-legal-item">
+          Реквизиты
+        </a>
+        <a href="#" class="footer-legal-item">
+          Политика конфиденциальности
+        </a>
+      </div>
+      <div class="footer-bottom-links">
+        <a href="#" class="footer-bottom-link">
+          <svg class="links-icon" width="35" height="24">
+            <use href="img/sprite.svg#pm1"></use>
+          </svg>
+        </a>
+        <a href="#" class="footer-bottom-link">
+          <svg class="links-icon" width="35" height="24">
+            <use href="img/sprite.svg#pm2"></use>
+          </svg>
+        </a>
+        <a href="#" class="footer-bottom-link">
+          <svg class="links-icon" width="35" height="24">
+            <use href="img/sprite.svg#pm3"></use>
+          </svg>
+        </a>
+        <a href="#" class="footer-bottom-link">
+          <svg class="links-icon" width="35" height="24">
+            <use href="img/sprite.svg#pm4"></use>
+          </svg>
+        </a>
+        <a href="#" class="footer-bottom-link">
+          <svg class="links-icon" width="35" height="24">
+            <use href="img/sprite.svg#pm5"></use>
+          </svg>
+        </a>
+        <a href="#" class="footer-bottom-link">
+          <svg class="links-icon" width="35" height="24">
+            <use href="img/sprite.svg#pm6"></use>
+          </svg>
+        </a>
+        <a href="#" class="footer-bottom-link">
+          <svg class="links-icon" width="35" height="24">
+            <use href="img/sprite.svg#pm7"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="header-links">
+        <p class="footer-bottom-text">
+          Online чат:
+        </p>
+        <svg class="links-icon" width="12" height="12">
+          <use href="img/sprite.svg#viber"></use>
+        </svg>
+        <svg class="links-icon" width="12" height="12">
+          <use href="img/sprite.svg#whatsap"></use>
+        </svg>
+        <svg class="links-icon" width="12" height="12">
+          <use href="img/sprite.svg#tg"></use>
+        </svg>
+      </div>
+    </div>
+
+  </footer>
   <script src="main.js"></script>
 </body>
 
