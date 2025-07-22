@@ -8,6 +8,16 @@ box-sizing: border-box;
   font-style: normal;
 }
 
+
+.roboto-uniquifier {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 .body {
   font-family: 'Jost', sans-serif;
 }
@@ -354,6 +364,7 @@ box-sizing: border-box;
   display: flex;
   align-items: center;
   margin-top: 6.25rem;
+  margin-bottom: 6.25rem;
 }
 
 .training-content{
@@ -680,3 +691,175 @@ box-sizing: border-box;
   letter-spacing: 0%;
   color: rgba(93, 108, 123, 1);
 }
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 16.199rem;
+  border: .0938rem solid rgba(234, 235, 237, 1);
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+  padding-top: .625rem;
+  padding-right: .625rem;
+  padding-left: .625rem;
+}
+
+.card-top{
+  background-color: rgba(240, 241, 245, 1);
+  display: flex;
+  flex-direction: column;
+  height: 14.4375rem;
+  margin-bottom: 1.25rem;
+}
+
+.button-hit{
+  font-family: Jost;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #fff;
+  background-color: rgba(238, 104, 95, 1);
+  border: none;
+  border-radius: .3125rem;
+  width: 2.5625rem;
+  height: 1.5625rem;
+}
+
+.card-bottom{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.card-title{
+  font-family: Jost;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(40, 39, 57, 1);
+}
+
+.cards-features{
+  columns: 2;
+  list-style-type: none;
+  padding-left: 0;
+  column-gap: 1.5rem;
+  margin-bottom: 1.5625rem;
+}
+
+.cards-features-item {
+  display: flex;
+  align-items: center;
+  gap: .625rem;
+}
+
+.card-features-text{
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(93, 108, 123, 1);
+}
+
+.price-wrapper{
+  margin-right: 1.625rem;
+}
+
+.old-price{
+  font-family: Jost;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-decoration: line-through;
+  color: rgba(93, 108, 123, 1);
+  margin-bottom: 0;
+}
+
+.new-price{
+  font-family: Jost;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(40, 39, 57, 1);
+  margin-top: 0;
+}
+
+.clients-info {
+  display: flex;
+  align-items:center;
+}
+
+.action-icons {
+  display: flex;
+  align-items: center;
+  gap: .625rem;
+}
+
+.action-icon{
+  border: 1.3px solid rgba(234, 235, 237, 1);
+  border-radius: 50%;
+  padding: .625rem;
+}
+
+.button-record {
+  width: 100%;
+  margin-bottom: 1.25rem;
+  font-family: Jost;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+}
+
+.good-cards-title {
+  font-family: Jost;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  text-align: center;
+  width: 45.75rem;
+  margin-bottom: 0;
+}
+
+.cards-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.875rem;
+}
+
+.title-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3.125rem;
+}
+
+.button-new {
+  font-family: Jost;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #fff;
+  background-color: rgba(117, 209, 74, 1);
+  border: none;
+  border-radius: .3125rem;
+  width: 3.9375rem;
+  height: 1.5625rem;
+}
+
+
+

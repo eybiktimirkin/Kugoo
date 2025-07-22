@@ -11,6 +11,10 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
   <title><?= $page_title ?> - Kugoo</title>
 </head>
 
@@ -225,6 +229,277 @@
               </p>
             </li>
           </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section good-cards">
+    <div class="container">
+      <div class="title-wrapper">
+        <h1 class="section-title good-cards-title">
+          Сейчас для тест-драйва и обучения доступны следующие модели
+        </h1>
+      </div>
+      <div class="cards-wrapper">
+        <div class="card-wrapper">
+          <div class="card-top">
+            <div class="card-info">
+              <button class="button-hit">ХИТ</button>
+              <svg class="links-icon" width="35" height="35">
+                <use href="img/sprite.svg#balance"></use>
+              </svg>
+            </div>
+            <img src="img/kirin.png" width="242" height="182" alt="самокат" class="img-card">
+          </div>
+          <div class="card-bottom">
+            <h2 class="card-title">
+              Kugoo Kirin M4
+            </h2>
+            <ul class="cards-features">
+              <li class="cards-features-item">
+                <svg class="links-icon" width="18" height="18">
+                  <use href="img/sprite.svg#accumulator"></use>
+                </svg>
+                <p class="card-features-text">
+                  2000 mAh
+                </p>
+              </li>
+              <li class="cards-features-item">
+                <svg class="links-icon" width="18" height="18">
+                  <use href="img/sprite.svg#speedometer"></use>
+                </svg>
+                <p class="card-features-text">
+                  60 км/ч
+                </p>
+              </li>
+              <li class="cards-features-item">
+                <svg class="links-icon" width="18" height="18">
+                  <use href="img/sprite.svg#power"></use>
+                </svg>
+                <p class="card-features-text">
+                  1,2 л.с.
+                </p>
+              </li>
+              <li class="cards-features-item">
+                <svg class="links-icon" width="18" height="18">
+                  <use href="img/sprite.svg#timer"></use>
+                </svg>
+                <p class="card-features-text">
+                  5 часов
+                </p>
+              </li>
+            </ul>
+            <div class="clients-info">
+              <div class="price-wrapper">
+                <p class="old-price">39 900 ₽</p>
+                <p class="new-price">29 900 ₽</p>
+              </div>
+              <div class="action-icons">
+                <svg class="action-icon" width="20" height="20">
+                  <use href="img/sprite.svg#shopping"></use>
+                </svg>
+                <svg class="action-icon" width="20" height="20">
+                  <use href="img/sprite.svg#heart"></use>
+                </svg>
+              </div>
+            </div>
+            <button class="button button-record">Записаться на тест-драйв</button>
+          </div>
+        </div>
+        <div class="card-wrapper">
+          <div class="card-top">
+            <div class="card-info">
+              <button class="button-new">Новинка</button>
+              <svg class="links-icon" width="35" height="35">
+                <use href="img/sprite.svg#balance"></use>
+              </svg>
+            </div>
+            <img src="img/kirin.png" width="242" height="182" alt="самокат" class="img-card">
+          </div>
+          <div class="card-bottom">
+            <h2 class="card-title">
+              Kugoo Kirin M4
+            </h2>
+            <ul class="cards-features">
+              <li class="cards-features-item">
+                <svg class="links-icon" width="18" height="18">
+                  <use href="img/sprite.svg#accumulator"></use>
+                </svg>
+                <p class="card-features-text">
+                  2000 mAh
+                </p>
+              </li>
+              <li class="cards-features-item">
+                <svg class="links-icon" width="18" height="18">
+                  <use href="img/sprite.svg#speedometer"></use>
+                </svg>
+                <p class="card-features-text">
+                  60 км/ч
+                </p>
+              </li>
+              <li class="cards-features-item">
+                <svg class="links-icon" width="18" height="18">
+                  <use href="img/sprite.svg#power"></use>
+                </svg>
+                <p class="card-features-text">
+                  1,2 л.с.
+                </p>
+              </li>
+              <li class="cards-features-item">
+                <svg class="links-icon" width="18" height="18">
+                  <use href="img/sprite.svg#timer"></use>
+                </svg>
+                <p class="card-features-text">
+                  5 часов
+                </p>
+              </li>
+            </ul>
+            <div class="clients-info">
+              <div class="price-wrapper">
+                <p class="old-price">39 900 ₽</p>
+                <p class="new-price">29 900 ₽</p>
+              </div>
+              <div class="action-icons">
+                <svg class="action-icon" width="20" height="20">
+                  <use href="img/sprite.svg#shopping"></use>
+                </svg>
+                <svg class="action-icon" width="20" height="20">
+                  <use href="img/sprite.svg#heart"></use>
+                </svg>
+              </div>
+            </div>
+            <button class="button button-record">Записаться на тест-драйв</button>
+          </div>
+        </div>
+        <div class="card-wrapper">
+          <div class="card-top">
+            <div class="card-info">
+              <button class="button-hit">ХИТ</button>
+              <svg class="links-icon" width="35" height="35">
+                <use href="img/sprite.svg#balance"></use>
+              </svg>
+            </div>
+            <img src="img/kirin.png" width="242" height="182" alt="самокат" class="img-card">
+          </div>
+          <div class="card-bottom">
+            <h2 class="card-title">
+              Kugoo Kirin M4
+            </h2>
+            <ul class="cards-features">
+              <li class="cards-features-item">
+                <svg class="links-icon" width="18" height="18">
+                  <use href="img/sprite.svg#accumulator"></use>
+                </svg>
+                <p class="card-features-text">
+                  2000 mAh
+                </p>
+              </li>
+              <li class="cards-features-item">
+                <svg class="links-icon" width="18" height="18">
+                  <use href="img/sprite.svg#speedometer"></use>
+                </svg>
+                <p class="card-features-text">
+                  60 км/ч
+                </p>
+              </li>
+              <li class="cards-features-item">
+                <svg class="links-icon" width="18" height="18">
+                  <use href="img/sprite.svg#power"></use>
+                </svg>
+                <p class="card-features-text">
+                  1,2 л.с.
+                </p>
+              </li>
+              <li class="cards-features-item">
+                <svg class="links-icon" width="18" height="18">
+                  <use href="img/sprite.svg#timer"></use>
+                </svg>
+                <p class="card-features-text">
+                  5 часов
+                </p>
+              </li>
+            </ul>
+            <div class="clients-info">
+              <div class="price-wrapper">
+                <p class="old-price">39 900 ₽</p>
+                <p class="new-price">29 900 ₽</p>
+              </div>
+              <div class="action-icons">
+                <svg class="action-icon" width="20" height="20">
+                  <use href="img/sprite.svg#shopping"></use>
+                </svg>
+                <svg class="action-icon" width="20" height="20">
+                  <use href="img/sprite.svg#heart"></use>
+                </svg>
+              </div>
+            </div>
+            <button class="button button-record">Записаться на тест-драйв</button>
+          </div>
+        </div>
+        <div class="card-wrapper">
+          <div class="card-top">
+            <div class="card-info">
+              <button class="button-new">Новинка</button>
+              <svg class="links-icon" width="35" height="35">
+                <use href="img/sprite.svg#balance"></use>
+              </svg>
+            </div>
+            <img src="img/kirin.png" width="242" height="182" alt="самокат" class="img-card">
+          </div>
+          <div class="card-bottom">
+            <h2 class="card-title">
+              Kugoo Kirin M4
+            </h2>
+            <ul class="cards-features">
+              <li class="cards-features-item">
+                <svg class="links-icon" width="18" height="18">
+                  <use href="img/sprite.svg#accumulator"></use>
+                </svg>
+                <p class="card-features-text">
+                  2000 mAh
+                </p>
+              </li>
+              <li class="cards-features-item">
+                <svg class="links-icon" width="18" height="18">
+                  <use href="img/sprite.svg#speedometer"></use>
+                </svg>
+                <p class="card-features-text">
+                  60 км/ч
+                </p>
+              </li>
+              <li class="cards-features-item">
+                <svg class="links-icon" width="18" height="18">
+                  <use href="img/sprite.svg#power"></use>
+                </svg>
+                <p class="card-features-text">
+                  1,2 л.с.
+                </p>
+              </li>
+              <li class="cards-features-item">
+                <svg class="links-icon" width="18" height="18">
+                  <use href="img/sprite.svg#timer"></use>
+                </svg>
+                <p class="card-features-text">
+                  5 часов
+                </p>
+              </li>
+            </ul>
+            <div class="clients-info">
+              <div class="price-wrapper">
+                <p class="old-price">39 900 ₽</p>
+                <p class="new-price">29 900 ₽</p>
+              </div>
+              <div class="action-icons">
+                <svg class="action-icon" width="20" height="20">
+                  <use href="img/sprite.svg#shopping"></use>
+                </svg>
+                <svg class="action-icon" width="20" height="20">
+                  <use href="img/sprite.svg#heart"></use>
+                </svg>
+              </div>
+            </div>
+            <button class="button button-record">Записаться на тест-драйв</button>
+          </div>
         </div>
       </div>
     </div>
