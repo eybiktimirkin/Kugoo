@@ -58,7 +58,7 @@
         </button>
         <form action="#" method="POST" class="search-form">
           <div class="input-wrapper">
-            <input id="search" type="text" class="input" name="search" placeholder="Искать самокат KUGO" />
+            <input id="search" type="text" class="input-seacrh" name="search" placeholder="Искать самокат KUGO" />
             <button class="button button-search">
               <svg class="links-icon" width="16" height="16">
                 <use href="img/sprite.svg#search"></use>
@@ -120,13 +120,55 @@
               </p>
             </li>
           </ul>
-          <button class="button header-button">
+          <button class="button header-button" data-toggle="modal">
             Записаться
           </button>
         </div>
       </div>
     </div>
   </section>
+  <div class="modal" id="feedback-modal">
+    <div class="modal-dialog">
+      <div class="modal-dialog-wrapper">
+        <h2 class="modal-title">Запишитесь на тест-драйв электросамоката</h2>
+        <p class="modal-text">
+          и подберите модель для себя
+        </p>
+        <p class="modal-small-text">
+          Менеджер свяжется с вами в течение 5 минут, чтобы согласовать время.
+        </p>
+        <p class="input-text">Как с вами удобнее связаться?</p>
+        <form action="handler.php" method="POST" class="modal-form">
+          <div class="input-group-wrapper input-group-vertical">
+            <div class="input-group modal-input-group-number">
+              <div class="input-group">
+                <input id="user-phone" type="text" class="input phone-mask" name="userphone"
+                  placeholder="+7 (___) __ - __ - __" maxlength="30" required />
+                <label class="input-group-label" for="user-phone"></label>
+              </div>
+              <button type="submit" class="button cta-form-button modal-button">
+                Оформить предзаказ
+              </button>
+            </div>
+          </div>
+          <div class="cta-form-footer">
+            <div class="notify modal-notify">
+              <svg class="modal-notify-icon" width="16" height="16">
+                <use href="img/sprite.svg#checkbox"></use>
+              </svg>
+              <p class="notify-text modal-notify-text">
+                Нажимая на кнопку, вы соглашаетесь на обработку персональных данных и политикой конфиденциальности
+              </p>
+            </div>
+          </div>
+        </form>
+      </div>
+      <img src="img/modal.jpg" alt="девушка на самокате" class="modal-img">
+      <a href="#" class="modal-close" data-toggle="modal">
+        <img src="img/close.png" alt="закрыть">
+      </a>
+    </div>
+  </div>
   <section class="section testdrive">
     <div class="container">
       <div class="testdrive-wrapper">

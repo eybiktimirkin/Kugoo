@@ -68,3 +68,22 @@ document.addEventListener("input", (e) => {
     input.value = result;
   }
 });
+
+const modal = document.querySelector(".modal")
+const modalDialog = document.querySelector(".modal-dialog")
+
+document.addEventListener ("click", (event) =>{
+  if(
+    event.target.dataset.toggle == "modal" || 
+    event.target.closest('[data-toggle="modal"]') ||
+    !event.composedPath().includes(modalDialog) && modal.classList.contains("is-open")
+  ) {
+    event.preventDefault();
+    modal.classList.toggle("is-open");
+  }
+});
+document.addEventListener("keyup", (event) => {
+  if (event.key == "Escape" && modal.classList.contains("is-open")) {
+    modal.classList.toggle("is-open");
+  }
+});
