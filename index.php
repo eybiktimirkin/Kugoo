@@ -15,7 +15,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
     rel="stylesheet">
-  <title><?= $page_title ?> - Kugoo</title>
+  <title>Главная</title>
 </head>
 
 <body>
@@ -84,6 +84,7 @@
   <section class="section section-header">
     <div class="container">
       <div class="header-content">
+        <img src="img/header-image.png" alt="главная картинка" class="header-bg">
         <div class="header-wrapper">
           <div class="info-wrapper">
             <svg class="info-icon" width="15" height="15">
@@ -104,17 +105,21 @@
           </p>
           <ul class="header-features">
             <li class="header-features-item">
-              <svg class="links-icon" width="16" height="16">
-                <use href="img/sprite.svg#samokat"></use>
-              </svg>
+              <div class="icon-wrapper">
+                <svg class="links-icon" width="16" height="16">
+                  <use href="img/sprite.svg#samokat"></use>
+                </svg>
+              </div>
               <p class="header-features-text">
                 Поймете, какая модель вам подходит
               </p>
             </li>
             <li class="header-features-item">
-              <svg class="links-icon" width="16" height="16">
-                <use href="img/sprite.svg#energy"></use>
-              </svg>
+              <div class="icon-wrapper">
+                <svg class="links-icon" width="16" height="16">
+                  <use href="img/sprite.svg#energy"></use>
+                </svg>
+              </div>
               <p class="header-features-text">
                 Проверите лучшие самокаты в деле
               </p>
@@ -291,7 +296,7 @@
                 <use href="img/sprite.svg#balance"></use>
               </svg>
             </div>
-            <img src="img/kirin.png" width="242" height="182" alt="самокат" class="img-card">
+            <img src="img/kirin.jpg" width="242" height="182" alt="самокат" class="img-card">
           </div>
           <div class="card-bottom">
             <h2 class="card-title">
@@ -337,10 +342,10 @@
                 <p class="new-price">29 900 ₽</p>
               </div>
               <div class="action-icons">
-                <svg class="action-icon" width="20" height="20">
+                <svg class="action-icon" width="40" height="40">
                   <use href="img/sprite.svg#shopping"></use>
                 </svg>
-                <svg class="action-icon" width="20" height="20">
+                <svg class="action-icon" width="40" height="40">
                   <use href="img/sprite.svg#heart"></use>
                 </svg>
               </div>
