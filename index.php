@@ -123,7 +123,7 @@
               </p>
             </li>
           </ul>
-          <button class="button header-button" data-toggle="modal">
+          <button class="button header-button" data-toggle="modal" action="handler.php">
             Записаться
           </button>
         </div>
