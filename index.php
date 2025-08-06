@@ -106,9 +106,7 @@
           <ul class="header-features">
             <li class="header-features-item">
               <div class="icon-wrapper">
-                <svg class="links-icon" width="16" height="16">
-                  <use href="img/sprite.svg#samokat"></use>
-                </svg>
+                <img src="img/scooter.png" alt="самокат" class="links-icon-img">
               </div>
               <p class="header-features-text">
                 Поймете, какая модель вам подходит
@@ -292,9 +290,7 @@
           <div class="card-top">
             <div class="card-info">
               <button class="button-hit">ХИТ</button>
-              <svg class="links-icon" width="35" height="35">
-                <use href="img/sprite.svg#balance"></use>
-              </svg>
+              <img src="img/balance.png" alt="весы" class="links-icon">
             </div>
             <img src="img/kirin.jpg" width="242" height="182" alt="самокат" class="img-card">
           </div>
@@ -357,9 +353,7 @@
           <div class="card-top">
             <div class="card-info">
               <button class="button-new">Новинка</button>
-              <svg class="links-icon" width="35" height="35">
-                <use href="img/sprite.svg#balance"></use>
-              </svg>
+              <img src="img/balance.png" alt="весы" class="links-icon">
             </div>
             <img src="img/kirin.png" width="242" height="182" alt="самокат" class="img-card">
           </div>
@@ -407,10 +401,10 @@
                 <p class="new-price">29 900 ₽</p>
               </div>
               <div class="action-icons">
-                <svg class="action-icon" width="20" height="20">
+                <svg class="action-icon" width="40" height="40">
                   <use href="img/sprite.svg#shopping"></use>
                 </svg>
-                <svg class="action-icon" width="20" height="20">
+                <svg class="action-icon" width="40" height="40">
                   <use href="img/sprite.svg#heart"></use>
                 </svg>
               </div>
@@ -422,9 +416,7 @@
           <div class="card-top">
             <div class="card-info">
               <button class="button-hit">ХИТ</button>
-              <svg class="links-icon" width="35" height="35">
-                <use href="img/sprite.svg#balance"></use>
-              </svg>
+              <img src="img/balance.png" alt="весы" class="links-icon">
             </div>
             <img src="img/kirin.png" width="242" height="182" alt="самокат" class="img-card">
           </div>
@@ -472,10 +464,10 @@
                 <p class="new-price">29 900 ₽</p>
               </div>
               <div class="action-icons">
-                <svg class="action-icon" width="20" height="20">
+                <svg class="action-icon" width="40" height="40">
                   <use href="img/sprite.svg#shopping"></use>
                 </svg>
-                <svg class="action-icon" width="20" height="20">
+                <svg class="action-icon" width="40" height="40">
                   <use href="img/sprite.svg#heart"></use>
                 </svg>
               </div>
@@ -487,9 +479,7 @@
           <div class="card-top">
             <div class="card-info">
               <button class="button-new">Новинка</button>
-              <svg class="links-icon" width="35" height="35">
-                <use href="img/sprite.svg#balance"></use>
-              </svg>
+              <img src="img/balance.png" alt="весы" class="links-icon">
             </div>
             <img src="img/kirin.png" width="242" height="182" alt="самокат" class="img-card">
           </div>
@@ -537,10 +527,10 @@
                 <p class="new-price">29 900 ₽</p>
               </div>
               <div class="action-icons">
-                <svg class="action-icon" width="20" height="20">
+                <svg class="action-icon" width="40" height="40">
                   <use href="img/sprite.svg#shopping"></use>
                 </svg>
-                <svg class="action-icon" width="20" height="20">
+                <svg class="action-icon" width="40" height="40">
                   <use href="img/sprite.svg#heart"></use>
                 </svg>
               </div>
@@ -603,7 +593,7 @@
   </section>
   <footer class="footer">
     <div class="footer-menu">
-      <div class="footer-menu-wrapper">
+      <div class="footer-menu-wrapper footer-menu-wrapper-1">
         <h2 class="footer-menu-title">
           Каталог товаров
         </h2>
@@ -622,7 +612,7 @@
           </li>
         </ul>
       </div>
-      <div class="footer-menu-wrapper">
+      <div class="footer-menu-wrapper footer-menu-wrapper-2">
         <h2 class="footer-menu-title">
           Покупателям
         </h2>
@@ -653,7 +643,7 @@
           </li>
         </ul>
       </div>
-      <div class="footer-menu-wrapper">
+      <div class="footer-menu-wrapper footer-menu-wrapper-3">
         <h2 class="footer-menu-title">
           Контакты
         </h2>
@@ -678,7 +668,7 @@
           </li>
         </ul>
       </div>
-      <div class="footer-menu-wrapper">
+      <div class="footer-menu-wrapper footer-menu-wrapper-4">
         <a href="#" class="callback">
           Заказать звонок
         </a>
@@ -720,7 +710,7 @@
       </div>
 
     </div>
-    <hr color="rgba(93, 108, 123, 1)" class="footer-seporator" />
+    <hr color="rgba(93, 108, 123, 1)" class="footer-seporator footer-seporator-2" />
     <div class="footer-bottom">
       <div class="footer-legal">
         <a href="#" class="footer-legal-item">
@@ -771,13 +761,13 @@
         <p class="footer-bottom-text">
           Online чат:
         </p>
-        <svg class="links-icon" width="12" height="12">
+        <svg class="links-icon" width="16" height="16">
           <use href="img/sprite.svg#viber"></use>
         </svg>
-        <svg class="links-icon" width="12" height="12">
+        <svg class="links-icon" width="16" height="16">
           <use href="img/sprite.svg#whatsap"></use>
         </svg>
-        <svg class="links-icon" width="12" height="12">
+        <svg class="links-icon" width="16" height="16">
           <use href="img/sprite.svg#tg"></use>
         </svg>
       </div>
