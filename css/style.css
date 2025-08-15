@@ -1210,4 +1210,12 @@ body {
   .button-catalog{
     margin-right: 0;
   }
+
+  .modal-img{
+    display: none;
+  }
+
+  .modal-dialog{
+    width: 21rem;
+  }
 }
