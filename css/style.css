@@ -1,24 +1,22 @@
 * {
 box-sizing: border-box;
 }
+
 .jost {
   font-family: "Jost", sans-serif;
   font-optical-sizing: auto;
-  font-weight: weight;
   font-style: normal;
 }
-
 
 .roboto-uniquifier {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
-  font-weight: weight;
   font-style: normal;
   font-variation-settings:
     "wdth" 100;
 }
 
-.body {
+body {
   font-family: 'Jost', sans-serif;
 }
 
@@ -48,7 +46,6 @@ box-sizing: border-box;
 }
 
 .header-nav-item {
-  font-family: Jost;
   color: #5D6C7B;
   font-weight: 400;
   font-size: .75rem;
@@ -57,7 +54,6 @@ box-sizing: border-box;
 }
 
 .header-phone-link {
-  font-family: Jost;
   text-decoration: none;
   font-weight: 500;
   font-size: 12px;
@@ -90,7 +86,6 @@ box-sizing: border-box;
 }
 
 .section-title{
-  font-family: Jost;
   font-weight: 700;
   font-size: 1.875rem;
   line-height: 100%;
@@ -107,7 +102,6 @@ box-sizing: border-box;
 }
 
 .text-catalog{
-  font-family: Jost;
   font-weight: 500;
   font-size: 1rem;
   line-height: 100%;
@@ -162,7 +156,7 @@ box-sizing: border-box;
   margin-right: 47px;
 }
 
-.input-seacrh{
+.input-search{
   border: .0938rem solid #6F73EE;
   border-top-left-radius: .3125rem;
   border-bottom-left-radius: .3125rem;
@@ -254,7 +248,6 @@ box-sizing: border-box;
 
 
 .info-adress{
-  font-family: Jost;
   font-weight: 400;
   font-size: 12px;
   line-height: 100%;
@@ -263,7 +256,6 @@ box-sizing: border-box;
 }
 
 .work-time{
-  font-family: Jost;
   font-weight: 400;
   font-size: 12px;
   line-height: 100%;
@@ -273,8 +265,7 @@ box-sizing: border-box;
 }
 
 .header-title{
-  font-family: Jost;
-  width: 38.25rem;
+  max-width: 38.25rem;
   font-weight: 600;
   font-size: 35px;
   line-height: 135%;
@@ -284,7 +275,6 @@ box-sizing: border-box;
 }
 
 .header-text{
-  font-family: Jost;
   font-weight: 400;
   font-size: 20px;
   line-height: 100%;
@@ -309,7 +299,6 @@ box-sizing: border-box;
 }
 
 .header-features-text{
-  font-family: Jost;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
@@ -321,7 +310,6 @@ box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: Jost;
   width: 9.9375rem;
   font-weight: 400;
   font-size: 16px;
@@ -357,23 +345,21 @@ box-sizing: border-box;
 }
 
 .testdrive-content{
-  margin-left: 135px;
+  margin-left: 8.4375rem;
 }
 
 .testdrive-title{
-  font-family: Jost;
   font-weight: 600;
-  font-size: 35px;
+  font-size: 2.1875rem;
   line-height: 149%;
   text-transform: uppercase;
-  width: 645px;
+  max-width: 40.3125rem;
   margin-top: 0;
 }
 
 .testdrive-text{
-  font-family: Jost;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 119%;
 }
 
@@ -382,7 +368,7 @@ box-sizing: border-box;
   display: flex;
   flex-direction: column;
   padding-left: 0;
-  gap: 10px;
+  gap: .625rem;
   margin-top: 0;
 }
 
@@ -394,9 +380,8 @@ box-sizing: border-box;
 }
 
 .testdrive-features-item-text{
-  font-family: Jost;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 1.125rem;
   line-height: 100%;
 }
 
@@ -412,17 +397,15 @@ box-sizing: border-box;
 }
 
 .training-title{
-  font-family: Jost;
   font-weight: 600;
-  font-size: 35px;
+  font-size: 2.1875rem;
   line-height: 138%;
   text-transform: uppercase;
-  width: 37.5rem;
+  max-width: 37.5rem;
   margin-top: 0;
 }
 
 .training-text{
-  font-family: Jost;
   font-weight: 400;
   font-size: 20px;
   line-height: 119%;
@@ -434,7 +417,7 @@ box-sizing: border-box;
   display: flex;
   flex-direction: column;
   padding-left: 0;
-  gap: 10px;
+  gap: .625rem;
 }
 
 .training-features-item{
@@ -496,7 +479,6 @@ box-sizing: border-box;
 }
 
 .cta-form-title{
-  font-family: Jost;
   font-weight: 600;
   font-size: 35px;
   line-height: 144%;
@@ -507,7 +489,6 @@ box-sizing: border-box;
 }
 
 .cta-form-text{
-  font-family: Jost;
   font-weight: 500;
   font-size: 16px;
   line-height: 100%;
@@ -517,7 +498,6 @@ box-sizing: border-box;
 }
 
 .phone-mask{
-  font-family: Jost;
   font-weight: 400;
   font-size: 16px;
   line-height: 100%;
@@ -548,7 +528,6 @@ box-sizing: border-box;
 }
 
 .notify-text{
-  font-family: Jost;
   font-weight: 400;
   font-size: 12px;
   line-height: 14px;
@@ -574,7 +553,6 @@ box-sizing: border-box;
 }
 
 .footer-top-title{
-  font-family: Jost;
   font-weight: 600;
   font-size: 18px;
   line-height: 144%;
@@ -596,7 +574,6 @@ box-sizing: border-box;
 .modal-input{
   width: 25.625rem;
   height: 3.3125rem;
-  font-family: Jost;
   font-weight: 400;
   font-size: 16px;
   line-height: 100%;
@@ -625,13 +602,12 @@ box-sizing: border-box;
 .footer-menu{
   display: flex;
   padding-top: 2.875rem;
-  margin-bottom: 74px;
+  margin-bottom: 4.625rem;
 }
 
 .footer-menu-title{
   margin-top: .25rem;
   margin-bottom: 7px;
-  font-family: Jost;
   font-weight: 500;
   font-size: 18px;
   line-height: 100%;
@@ -640,7 +616,6 @@ box-sizing: border-box;
 }
 
 .callback{
-  font-family: Jost;
   font-weight: 500;
   font-size: 12px;
   line-height: 100%;
@@ -677,7 +652,6 @@ box-sizing: border-box;
 
 .footer-menu-link{
   text-decoration: none;
-  font-family: Jost;
   font-weight: 400;
   font-size: 14px;
   line-height: 100%;
@@ -696,7 +670,6 @@ box-sizing: border-box;
 }
 
 .text-number{
-  font-family: Jost;
   font-weight: 500;
   font-size: 16px;
   line-height: 100%;
@@ -705,7 +678,6 @@ box-sizing: border-box;
 }
 
 .text-time{
-  font-family: Jost;
   font-weight: 400;
   font-size: 12px;
   line-height: 100%;
@@ -753,7 +725,6 @@ box-sizing: border-box;
 
 .footer-legal-item{
   text-decoration: none;
-  font-family: Jost;
   font-weight: 400;
   font-size: 12px;
   line-height: 100%;
@@ -764,7 +735,7 @@ box-sizing: border-box;
 .card-wrapper {
   display: flex;
   flex-direction: column;
-  width: 255.184px;
+  width: 15.949rem;
   border: .0938rem solid rgba(234, 235, 237, 1);
 }
 
@@ -787,7 +758,6 @@ box-sizing: border-box;
 }
 
 .button-hit{
-  font-family: Jost;
   font-weight: 500;
   font-size: 12px;
   line-height: 100%;
@@ -805,7 +775,6 @@ box-sizing: border-box;
 }
 
 .card-title{
-  font-family: Jost;
   font-weight: 600;
   font-size: 18px;
   line-height: 100%;
@@ -842,7 +811,6 @@ box-sizing: border-box;
 }
 
 .old-price{
-  font-family: Jost;
   font-weight: 500;
   font-size: 12px;
   line-height: 100%;
@@ -853,7 +821,6 @@ box-sizing: border-box;
 }
 
 .new-price{
-  font-family: Jost;
   font-weight: 600;
   font-size: 20px;
   line-height: 100%;
@@ -882,7 +849,6 @@ box-sizing: border-box;
 .button-record {
   width: 90%;
   margin-bottom: 1.25rem;
-  font-family: Jost;
   font-weight: 400;
   font-size: 12px;
   line-height: 100%;
@@ -896,14 +862,13 @@ box-sizing: border-box;
 }
 
 .good-cards-title {
-  font-family: Jost;
   font-weight: 600;
   font-size: 35px;
   line-height: 143%;
   text-align: center;
   text-transform: uppercase;
   text-align: center;
-  width: 45.75rem;
+  max-width: 45.75rem;
   margin-bottom: 0;
   margin-right: 0.1875rem;
 }
@@ -923,7 +888,6 @@ box-sizing: border-box;
 }
 
 .button-new {
-  font-family: Jost;
   font-weight: 500;
   font-size: 12px;
   line-height: 100%;
@@ -1010,7 +974,6 @@ box-sizing: border-box;
 }
 
 .modal-title{
-  font-family: Jost;
   font-weight: 600;
   font-size: 25px;
   line-height: 100%;
@@ -1021,7 +984,6 @@ box-sizing: border-box;
 }
 
 .modal-text{
-  font-family: Jost;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -1032,7 +994,6 @@ box-sizing: border-box;
 }
 
 .modal-small-text{
-  font-family: Jost;
   font-weight: 400;
   font-size: 14px;
   line-height: 100%;
@@ -1043,7 +1004,6 @@ box-sizing: border-box;
 }
 
 .input-text{
-  font-family: Jost;
   font-weight: 400;
   font-size: 12px;
   line-height: 100%;
@@ -1055,7 +1015,6 @@ box-sizing: border-box;
 
 .modal-button{
   padding: .9375rem 3.5625rem .9375rem 3.5625rem;
-  font-family: Jost;
   font-weight: 400;
   font-size: 16px;
   line-height: 100%;
@@ -1081,10 +1040,174 @@ box-sizing: border-box;
 
 .img-card{
   position:absolute;
-  width: 242px;
-  height: 182px;
-  bottom: 26px;
-  right: 9px;
+  width: 15.125rem;
+  height: 11.375rem;
+  bottom: 1.625rem;
+  right: .5625rem;
   z-index: 0;
 }
 
+@media (max-width: 1200px) {
+  .container {
+    max-width: 70rem;
+  }
+  .cta-image{
+    display: none;
+  }
+  .input-search{
+    max-width: 18rem;
+  }
+  .search-form{
+    margin-right: .625rem;
+  }
+
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 43.75rem;
+  }
+  .section{
+    margin-left: 1.9375rem;
+  }
+  .navbar {
+    display: none;
+  }
+  .header-bg{
+    display: none;
+  }
+
+  .header-content::after{
+    mask-image: none;
+    background-position: left;
+  }
+
+  .header-features {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  .header-title {
+    font-size: 1.5rem;
+    max-width: 25rem;
+  }
+
+  .header-wrapper {
+    margin-left: 2rem;
+  }
+
+  .testdrive-wrapper{
+    flex-direction: column;
+  }
+  .training-wrapper{
+    flex-direction: column-reverse;
+  }
+  .search-wrapper{
+    flex-direction: column;
+    gap: .625rem
+  }
+  .button-catalog{
+    max-width: 100%;
+  }
+  .testdrive-content,
+  .training-content{
+    margin-left: 0;
+  }
+  .testdrive-title,
+  .training-title{
+    font-size: 1.5rem;
+  }
+
+  .cards-wrapper{
+    flex-direction: column;
+  }
+  .cta-form-wrapper{
+    display: flex;
+    justify-content: center;   
+    align-items: center;       
+    min-height: 3.125rem;        
+    padding: 20px;             
+    box-sizing: border-box;
+    text-align: center;
+  }
+
+  .cta-form-title{
+    font-size: 1.5rem;
+  }
+
+  .section-footer-top{
+    display: none;
+  }
+
+  .input-group-wrapper{
+    flex-direction: column;
+  }
+
+  .footer-menu{
+    flex-direction: column;
+    align-items: center;
+    gap: 1.875rem;
+  }
+
+  .links-download-wrapper,
+  .links-wrapper,
+  .footer-links{
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  .footer-bottom{
+    flex-direction: column;
+  }
+
+  .footer-legal {
+    margin-right: 0;
+  }
+  .header-links{
+    margin-left: 0;
+  }
+  .section-cta{
+    margin-top: 1.875rem;
+  }
+
+  .footer{
+    margin-left: 30px;
+  }
+
+  .footer-menu-wrapper-1,
+  .footer-menu-wrapper-2,
+  .footer-menu-wrapper-3,
+  .footer-menu-wrapper-4{
+    margin-right: 0;
+  }
+
+  .footer-menu-title{
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .container {
+    max-width: 25rem;
+    margin: auto;
+  }
+
+  .info-wrapper{
+    margin-top: 2.625rem;
+  }
+
+  .header-content{
+    height: 30.8125rem;
+  }
+  .header-button{
+    width: 90%;
+  }
+
+  .section-title{
+    margin-right: 0;
+  }
+
+  .button-catalog{
+    margin-right: 0;
+  }
+}

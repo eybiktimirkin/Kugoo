@@ -59,7 +59,7 @@
         </button>
         <form action="#" method="POST" class="search-form">
           <div class="input-wrapper">
-            <input id="search" type="text" class="input-seacrh" name="search" placeholder="Искать самокат KUGO" />
+            <input id="search" type="text" class="input-search" name="search" placeholder="Искать самокат KUGO" />
             <button class="button button-search">
               <svg class="links-icon" width="16" height="16">
                 <use href="img/sprite.svg#search"></use>
